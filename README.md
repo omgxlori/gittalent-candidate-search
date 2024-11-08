@@ -13,7 +13,7 @@ This project is a web application designed to help you search for and manage pot
 - [Contact](#contact)
 
 ## Deployed Link
-The GitTalent Candidate Search application can be accessed through this deployed link:
+The GitTalent Candidate Search application can be accessed through this deployed link: https://gittalent-candidate-search.netlify.app/saved-candidates
 
 ## Features
 - Candidate Search: Uses the GitHub API to search and display candidate profiles, including their location, email, and bio.
@@ -57,10 +57,15 @@ npm install
 VITE_GITHUB_TOKEN=your_github_personal_access_token
 ```
 
-5. Run the Application: Start the development server:
+5. Build the application:
+```md
+npm run build
+```
+
+5. Run the Application:
 
 ```md
-npm run dev
+npm run start
 ```
 
 ## Usage
