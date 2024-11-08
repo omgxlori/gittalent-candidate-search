@@ -1,4 +1,5 @@
-// Fetch multiple users based on a search query (for potential future use)
+/// <reference types="vite/client" />
+
 const searchGithub = async (query: string) => {
   try {
     const response = await fetch(`https://api.github.com/search/users?q=${query}`, {
