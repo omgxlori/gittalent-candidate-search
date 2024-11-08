@@ -60,7 +60,7 @@ VITE_GITHUB_TOKEN=your_github_personal_access_token
 5. Run the Application: Start the development server:
 
 ```md
-npm run start
+npm run dev
 ```
 
 ## Usage
