@@ -1,0 +1,26 @@
+/* src/components/NavBar.css */
+.navbar {
+    width: 100%; /* Make the navbar span the full width */
+    padding: 10px 20px;
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Position it at the very top */
+    left: 0; /* Position it starting from the left */
+    color: #ffffff; /* Set text color */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .nav-links {
+    display: flex; /* Arrange the links horizontally */
+    list-style: none; /* Remove bullet points */
+    gap: 20px; /* Space between links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .nav-link {
+    text-decoration: none; /* Remove underlines from links */
+    color: #ffffff; /* White text color */
+    font-weight: 500; /* Medium font weight */
+    font-size: 16px; /* Adjust font size */
+  }
+  
